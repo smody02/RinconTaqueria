@@ -1,1 +1,33 @@
-
+<style type="text/css">
+html{}
+#nav{
+    clear: both;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: 48px;
+    font-size: 16px;
+    background-color: #c8decb;
+    color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 32px;
+    width: 100%;
+    z-index: 10;
+}
+nav * {
+    display: inline;
+}
+#group {
+    float: right;
+    margin-top: 4px;
+    padding-right: 64px;
+}
+#group a:hover {
+    background-color: #ffffff;
+}
+#active a {
+    font-weight: bold;
+    background-color: #ffcccc;
+}
+</style>
